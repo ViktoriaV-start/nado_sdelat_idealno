@@ -43,7 +43,7 @@ h1 {
 }
 
 .title {
-  width: fit-content;
+  width: 775px;
   margin: 60px auto 0;
   color: #000;
   font-family: "Raleway", "Helvetica", sans-serif;
@@ -56,10 +56,9 @@ h1 {
   cursor: pointer;
 }
 
-.title::after {
+.title__ending::after {
   content: "*";
-  position: relative;
-  margin-left: -33px;
+  letter-spacing: 0;
 }
 
 .title:hover {
@@ -72,12 +71,12 @@ h1 {
   top: 182px;
   right: 20px;
   width: fit-content;
-  border: 2px solid #000000;
+  border: 2px solid currentColor;
   border-radius: 20px;
   padding: 34px 41px 36px 43px;
-  box-shadow: 0 12px 0 #000;
+  box-shadow: 0 12px 0 currentColor;
   color: #000;
-  font-family: "Raleway";
+  font-family: "Raleway", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 35px;
   line-height: 1;
